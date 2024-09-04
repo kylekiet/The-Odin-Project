@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'courier_primeregular';
+  src: url('fonts/courier_prime-webfont.woff2') format('woff2'),
+       url('fonts/courier_prime-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'kontrapunktlight';
+  src: url('fonts/kontrapunkt-light-webfont.woff2') format('woff2'),
+       url('fonts/kontrapunkt-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.teko-font {
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* General setup */
+
+html {
+  font-size: 10px;
+  margin: 0;
+  font-family: "Teko", serf;
+}
+
+body {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  word-spacing: 0.6rem;
+}

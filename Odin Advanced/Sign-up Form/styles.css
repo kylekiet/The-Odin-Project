@@ -36,7 +36,8 @@ body {
     background-color: #181a1b;
     display:flex;
     margin: auto;
-    width: 1024px;
+    width: 1600px;
+    height: 900px;
 }
 
 h1 {
@@ -48,8 +49,14 @@ h1 {
 #image-sidebar {
     font-family: Norse-bold, sans-serif;
     position: relative;
-    width: 40%;
+    width: 30%;
     height: 100%;
+}
+
+#leaf-background {
+    height: 900px;
+    width: 100%;
+    object-fit: cover;
 }
 
 #image-text {
@@ -58,7 +65,6 @@ h1 {
     align-content: center;
     position: absolute;
     text-align: center;
-    line-height: 150px;
     color:antiquewhite;
     background-color: rgba(25, 25, 25, 0.8);
     font-size: 7rem;
@@ -74,29 +80,81 @@ h1 {
     align-self: center;
 }
 
+#credit {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
 
 .container {
-    padding: 20px;
-    width: 60%;
+    width: 70%;
     flex-direction: column;
     background-color: aliceblue;
 }
 
 .input-fields {
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
+    padding-right: 300px;
+}
+
+.input-fields label {
+    margin-top: 20px;
 }
 
 .input  {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    margin-right: 75px;
+}
+
+#password:invalid,
+#password-confirm:invalid {
+    border-color: red;
+
+}
+
+
+
+
+.input-container {
+    -webkit-box-shadow: 0px 4px 7px 4px rgba(0,0,0,0.57); 
+    box-shadow: 0px 4px 7px 4px rgba(0,0,0,0.57);
+    background-color: whitesmoke;
+    padding:10px;
+    padding-left: 20px;
+    margin-left: 0;
+}
+
+fieldset {
+    width: 100%;
+    border: 0;
+}
+
+#submit-container {
+    margin-left: 20px;
+}
+
+#submit-container button {
+    margin-top: 15px;
+    margin-top: 40px;
+    border: 0px;
+    background-color: #596D48; 
+    color: white;
 }
 
 input,
 textarea,
 button,
 select {
-    width:150px;
+    margin-right: 75px;
+    border-color: #E5E7EB;
+    border-radius: 5px;
+    width: 200px;
     height: 25px;  
 }

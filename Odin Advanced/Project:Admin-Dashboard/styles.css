@@ -13,7 +13,7 @@
     -webkit-font-smoothing: antialiased;
 }
   img, picture, video, canvas, svg {
-    display: block;
+    display: inline-block;
     max-width: 100%;
 }
   input, button, textarea, select {
@@ -48,13 +48,37 @@ body {
 
 .header-container {
     background-color: chartreuse;
+	height: 25%;
 }
 
 .header-container #top {
+	height: 50%;
     display: flex;
     justify-content: space-between;
 }
 
-.grid-container {
+.header-container #bottom {
+	height: 50%;
+    display: flex;
+	justify-content: space-between;
+}
+
+#bottom #buttons {
+}
+
+#intro {
+	display: flex;
+	
+}
+
+#intro div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+.grid-container {	
     background-color: orange;
 }
+    
